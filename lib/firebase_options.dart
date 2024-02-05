@@ -25,7 +25,10 @@ class DefaultFirebaseOptions {
       case TargetPlatform.iOS:
         return ios;
       case TargetPlatform.macOS:
-        return macos;
+        throw UnsupportedError(
+          'DefaultFirebaseOptions have not been configured for macos - '
+          'you can reconfigure this by running the FlutterFire CLI again.',
+        );
       case TargetPlatform.windows:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for windows - '
@@ -44,46 +47,31 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyDlg1yB-s80k7LM5_y273ZsM6UnbxU63h0',
-    appId: '1:267632933517:web:3c2f081adc254ea4bc40c4',
-    messagingSenderId: '267632933517',
-    projectId: 'tmspro-e42d7',
-    authDomain: 'tmspro-e42d7.firebaseapp.com',
-    databaseURL:
-        'https://tmspro-e42d7-default-rtdb.europe-west1.firebasedatabase.app',
-    storageBucket: 'tmspro-e42d7.appspot.com',
-    measurementId: 'G-B3W63F552R',
+    apiKey: 'AIzaSyCIWjVNr-_UBmjc9U_2u6LF0F3fOyL1K2A',
+    appId: '1:587655886115:web:627daf475ba700866dc896',
+    messagingSenderId: '587655886115',
+    projectId: 'quize-4aa9c',
+    authDomain: 'quize-4aa9c.firebaseapp.com',
+    storageBucket: 'quize-4aa9c.appspot.com',
+    measurementId: 'G-6HYZ2S2LT0',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDsGCJvvRJONnTn0vZnLGbbCRnl50GPoDs',
-    appId: '1:267632933517:android:909f202d319f0875bc40c4',
-    messagingSenderId: '267632933517',
-    projectId: 'tmspro-e42d7',
-    databaseURL:
-        'https://tmspro-e42d7-default-rtdb.europe-west1.firebasedatabase.app',
-    storageBucket: 'tmspro-e42d7.appspot.com',
+    apiKey: 'AIzaSyDltMoIGUSua9pyC9cEiyF6nZFvXz4GL8c',
+    appId: '1:587655886115:android:d00cbc78c33095666dc896',
+    messagingSenderId: '587655886115',
+    projectId: 'quize-4aa9c',
+    storageBucket: 'quize-4aa9c.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyAhgDaqCGA93-PpdBmkWZbQ7gOQZJmi-DI',
-    appId: '1:267632933517:ios:439b0fc945694bf2bc40c4',
-    messagingSenderId: '267632933517',
-    projectId: 'tmspro-e42d7',
-    databaseURL:
-        'https://tmspro-e42d7-default-rtdb.europe-west1.firebasedatabase.app',
-    storageBucket: 'tmspro-e42d7.appspot.com',
-    iosBundleId: 'com.example.tms',
-  );
-
-  static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyAhgDaqCGA93-PpdBmkWZbQ7gOQZJmi-DI',
-    appId: '1:267632933517:ios:3e9b859306f63259bc40c4',
-    messagingSenderId: '267632933517',
-    projectId: 'tmspro-e42d7',
-    databaseURL:
-        'https://tmspro-e42d7-default-rtdb.europe-west1.firebasedatabase.app',
-    storageBucket: 'tmspro-e42d7.appspot.com',
-    iosBundleId: 'com.example.tms.RunnerTests',
+    apiKey: 'AIzaSyBmPymzB8kVPNh-RMeErjPqGT2SnB0V_LI',
+    appId: '1:587655886115:ios:1481aea3471257886dc896',
+    messagingSenderId: '587655886115',
+    projectId: 'quize-4aa9c',
+    storageBucket: 'quize-4aa9c.appspot.com',
+    androidClientId: '587655886115-5jof93d4gce503air6p18639c13f2u75.apps.googleusercontent.com',
+    iosClientId: '587655886115-3u4g72q453pv54s8b3gis8gvnkfg8h4r.apps.googleusercontent.com',
+    iosBundleId: 'com.tdtu.da2.g60.whizz',
   );
 }

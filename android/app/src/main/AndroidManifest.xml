@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.tdtu.da2.g160.whizz">
+    package="com.tdtu.da2.g60.whizz">
     <uses-permission android:name="android.permission.CAMERA" />
     <application
         android:label="Quizwhizz"

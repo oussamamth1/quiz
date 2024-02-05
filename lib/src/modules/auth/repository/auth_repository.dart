@@ -87,7 +87,8 @@ class AuthenticationRepository {
       }
     } on FirebaseAuthException catch (e) {
       throw SignInWithCredentialException(e.code);
-    } catch (_) {
+    } catch (e) {
+      print("e $e");
       throw const SignInWithCredentialException();
     }
   }

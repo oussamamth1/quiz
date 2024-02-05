@@ -1,0 +1,70 @@
+{
+  "project_info": {
+    "project_number": "587655886115",
+    "project_id": "quize-4aa9c",
+    "storage_bucket": "quize-4aa9c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:587655886115:android:d00cbc78c33095666dc896",
+        "android_client_info": {
+          "package_name": "com.tdtu.da2.g60.whizz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "587655886115-5jof93d4gce503air6p18639c13f2u75.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tdtu.da2.g60.whizz",
+            "certificate_hash": "c8713517fbbc565dac443070e158066b163d66b6"
+          }
+        },
+        {
+          "client_id": "587655886115-fdsk3dugjjv687bgf9p1beplesac790c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tdtu.da2.g60.whizz",
+            "certificate_hash": "f071bfa941b20cfd5fd479534c2f8e4bb693c5d0"
+          }
+        },
+        {
+          "client_id": "587655886115-tc456a76sd52f1cdr7j7lght4jatrhda.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tdtu.da2.g60.whizz",
+            "certificate_hash": "3a923dd955570d1bab28598651a99027983f5fe8"
+          }
+        },
+        {
+          "client_id": "587655886115-9n4jp4is36qdpq0jpp2c2q6423r8jj53.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDltMoIGUSua9pyC9cEiyF6nZFvXz4GL8c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "587655886115-678fmnik41vtpiu35kcis1ui0qaoch12.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "587655886115-3u4g72q453pv54s8b3gis8gvnkfg8h4r.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.tdtu.da2.g60.whizz"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
